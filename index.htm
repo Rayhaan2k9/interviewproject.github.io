@@ -1,0 +1,158 @@
+<!DOCTYPE HTML>
+<html>
+    
+<head>
+<title>Hello World!</title>
+
+ <link rel="stylesheet" href="style.css">
+		
+  
+</head>
+    <body>
+    <input class="input" type="text" id="name" name="name" value="" placeholder="input your name here" onchange="captureName()">
+	<br>
+	<br>
+	<div class= "textbox">
+    <h1>Hello World!</h1>
+        <h2>My name is <em style="color: green">Rayhaan</em></h2>
+        <h3>Here's a basic website I have created using <em>HTML, CSS and Vanilla JavaScript.</em> It is far from perfect, but I'm definitely keen to learn more!</h3>
+   </div>
+        
+      
+        <br>
+				<div class= "textbox">
+        <p>I currently work as a Customer Experience Specialist at <b><a href="https://ao.com/" target="_blank" style="color: green">AO.com</a></b></p>
+        <br>
+        <p>I have worked at AO for almost 6 years. It is a <B style= "color: forestgreen">FANTASTIC</B> place to work! The company really looks after employees so that we can provide <b style="color: red"><i>WORLD CLASS</i></b> service to our customers! Our motto is to treat every customer like your gran by making decisions your mum would be proud of. I can see myself working here for many years to come and my dream is to become a Software Developer at AO Tech</p>
+        <br>
+        <p> One of the reasons I love coding is because I see myself as a creative person. I love working on projects and then seeing them come to life. </p>
+        <br>
+        <p>One of my hobbies is photography. I am still learning, but know that I'm getting better as I keep going. Here are a few photos I have taken recently. To demonstrate some basic JavaScript, I have used on click events and functions to change the below photos to show you before and after editing them in Photoshop</p>
+        </form>
+        <br>
+			</div>
+			<br>
+		<img id="Yusuf-log" src="https://i.imgur.com/DpwkckU.jpg" alt="Yusuf Log">
+
+
+	<div class="button-area1">
+	
+
+		<button class="button1" onclick="switchImage()">Toggle Image</button>
+    <!-- <button id="beforeOne" onclick="before1()">Before</button>
+		<button id="afterOne" onclick="after1()">After</button> -->
+		
+	</div>
+	<br>
+	<br>
+	<img id="Yusuf-field" src="https://i.imgur.com/dd6WEZu.jpg" alt="Yusuf Field">
+	
+	<!-- button area -->
+	<div class="button-area2">
+	
+	
+	<button class= "BeforeButton" onclick="before2()">Before</button>
+        
+	<button class= "AfterButton" onclick="after2()">After</button>
+	
+	</div>
+	<br>
+	<br>
+	<img id="Zak-mosque" src="https://i.imgur.com/O2cjLB7.jpg" alt="Zakariyya Mosque">
+	
+	<!-- button area -->
+	<div class="button-area3">
+	
+	
+	<button class= "BeforeButton" onclick="before3()">Before</button>
+        
+	<button class= "AfterButton" onclick="after3()">After</button>
+	
+	</div>
+	
+				
+ 
+        <br>
+        <br>
+        <br>
+<div class= "textbox">
+       <p> Another hobby I have recently taken up is Film making. During Lockdown, I taught myself Adobe After Effects which was no easy task, and spent some time working on a project. The project was to record some clips of my 3 year old son, Yusuf and then use After Effects to add some superhero visual effects. Getting Yusuf to take direction was a challenge in itself! In the end, I turned it into a mini film complete with an intro, credits and after credits scene Here's the completed project.</p>
+			 </div>
+        <br>
+        <br>
+    <iframe src="https://player.vimeo.com/video/433388833" width="640" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        
+        <br>
+        <br>
+				
+				<div class= "textbox">
+				<p>Finally, here's a drumkit I learnt how to write on JavaScript30 :) </p>
+				<br>
+				</div>
+				
+				<div class="keys">
+    <div data-key="65" class="key">
+      <kbd>A</kbd>
+      <span class="sound">clap</span>
+    </div>
+    <div data-key="83" class="key">
+      <kbd>S</kbd>
+      <span class="sound">hihat</span>
+    </div>
+    <div data-key="68" class="key">
+      <kbd>D</kbd>
+      <span class="sound">kick</span>
+    </div>
+    <div data-key="70" class="key">
+      <kbd>F</kbd>
+      <span class="sound">openhat</span>
+    </div>
+    <div data-key="71" class="key">
+      <kbd>G</kbd>
+      <span class="sound">boom</span>
+    </div>
+    <div data-key="72" class="key">
+      <kbd>H</kbd>
+      <span class="sound">ride</span>
+    </div>
+    <div data-key="74" class="key">
+      <kbd>J</kbd>
+      <span class="sound">snare</span>
+    </div>
+    <div data-key="75" class="key">
+      <kbd>K</kbd>
+      <span class="sound">tom</span>
+    </div>
+    <div data-key="76" class="key">
+      <kbd>L</kbd>
+      <span class="sound">tink</span>
+    </div>
+  </div>
+
+  <audio data-key="65" src="C:\Users\ugharr\OneDrive - AO Retail Limited\Documents\Sounds\clap.wav"></audio>
+  <audio data-key="83" src="C:\Users\ugharr\OneDrive - AO Retail Limited\Documents\Sounds\hihat.wav"></audio>
+  <audio data-key="68" src="C:\Users\ugharr\OneDrive - AO Retail Limited\Documents\Sounds\kick.wav"></audio>
+  <audio data-key="70" src="C:\Users\ugharr\OneDrive - AO Retail Limited\Documents\Sounds\openhat.wav"></audio>
+  <audio data-key="71" src="C:\Users\ugharr\OneDrive - AO Retail Limited\Documents\Sounds\boom.wav"></audio>
+  <audio data-key="72" src="C:\Users\ugharr\OneDrive - AO Retail Limited\Documents\Sounds\ride.wav"></audio>
+  <audio data-key="74" src="C:\Users\ugharr\OneDrive - AO Retail Limited\Documents\Sounds\snare.wav"></audio>
+  <audio data-key="75" src="C:\Users\ugharr\OneDrive - AO Retail Limited\Documents\Sounds\tom.wav"></audio>
+  <audio data-key="76" src="C:\Users\ugharr\OneDrive - AO Retail Limited\Documents\Sounds\tink.wav"></audio>
+       
+			  <div class= "textbox">
+				<p>This is a basic site, however, I hope that I've demonstrated some knowledge of HTML, CSS and JavaScript. I know the world of programming is huge and I want to keep learning. I feel <b style="color: forestgreen">AO</b> is the best place for me due to us only wanting to hire the most talented developers. My passion for learning as well as my pride in the quality of my work will definitely help me to become a talented developer.  </p>
+				</div>
+        <br>
+        <hr>
+        <br>
+        <h2 style="color: darkblue; font-family: sans-serif">Rayhaan Ugharadar</h2>
+        <h2><a href="https://ao.com/" target="_blank" style="color: green; font-family: sans-serif">AO.com</a></h2>
+            
+       <script src="main.js"></script>
+
+			 
+			 </script>
+
+        
+    </body>
+</html>
